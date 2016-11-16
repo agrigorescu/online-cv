@@ -24,9 +24,9 @@
         <!--end of navigation-->
             
         <!--personal info-->
-        <section id="personal_info">
+        <section id="personal_info" role="contentinfo">
             <!--writing contact details-->
-            <div id="contact">
+            <div id="contact" role="contactdetails">
                 <h1> Andreea Grigorescu</h1>
                 <h2>Personal Information</h2>
                 <p><em>Phone: 07475197110</em></p>
@@ -36,14 +36,14 @@
         <!--end of personal information-->
 
         <!--writing the intro-->
-            <div id="intro"> 
+            <div id="intro" role="introduction"> 
                 <p><em>Andreea is a positive individual with a passion for all things tech. Since joining the Academy, Andreea has taken joy and pride in completing various assignments and projects. Her technical skill set and her creativity will be a wonderful addition to any company.</em> </p>
             </div>
         <!--end of writing the intro-->
         </section>
 
         <!--work experience-->
-        <section id="experience">
+        <section id="experience" role="contentinfo">
         <h2><em>Experience</em></h2>
         
             <!--most recent job-->
@@ -54,9 +54,9 @@
                 
                 <nav>
                 <!--job description-->
-                <details class="description">
+                <div class="description">
                     <p>I develop the Internet</p>
-                </details>
+                </div>
                 <!--end of description-->
                 
                 <p><em>Skills</em></p>
@@ -69,6 +69,21 @@
                         <li>C++</li>
                     </ul>
                 </div>
+                
+                <!--beginning of the projects-->
+                <div class="projects">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li>Project 1</li>
+                            <details>A few words on the project.</details>
+                        <li>Project 2</li>
+                            <details>A few words on the project.</details>
+                        <li>Project 3</li>
+                            <details>A few words on the project.</details>
+                    </ul>
+                    
+                </div>
+                
             </div>
             <!--end of most recent job-->
             
@@ -92,7 +107,7 @@
         <!--end of work experience-->
 
         <!--education-->
-        <section id="school">
+        <section id="school" role="contentinfo">
             <h2><em>Education</em></h2>
             <h3>London Metropoltan</h3>
                 <h4><strong>IT Security and Law</strong></h4>
@@ -120,7 +135,7 @@
         <!--end of hobbies-->
         
         <!--contact form-->
-        <footer id="forms">
+        <footer id="forms" role="contentinfo">
             <h3>Contact me:</h3>
             <form method="post" action="http://lacedeamon.spartaglobal.com/contactform">
                 <label for="name">Name</label>
