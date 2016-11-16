@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    font-family: serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #6B238E;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a {
+    border: solid 1px;
+    border-color: white; 
+    padding: 2px;
+}
+
+nav {
+    background-color: #82CFFD;
+    /*border: solid 2px #82CFFD;*/
+    padding: 5px;
+}

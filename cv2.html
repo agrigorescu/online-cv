@@ -3,37 +3,62 @@
     <!--establishing the tile of the page-->
     <head>
          <title> CV </title>
+         
+         <!--link the css file-->
+         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <!--the body of the page-->
     <body>
-
+        <!--start of the navigation bar-->
+        <header>
+            <nav class="navigation">
+                <div>
+                    <a href="#personal_info">Personal Information</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#school">Education</a>
+                    <a href="#hobbies">Hobbies</a>
+                    <a href="#forms">Contact me</a>
+                </div>
+            </nav>
+        </header>
+        <!--end of navigation-->
+            
         <!--personal info-->
-        <div id="personal_info">
-            <h1> Andreea Grigorescu</h1>
-            <h2>Personal Information</h2>
-            <p><em>Phone: 07475197110</em></p>
-            <p><em>Email: deea26@gmail.com</em></p>
-            <p><em> Address: 2 Vaughan Road, Thames Ditton, KT7 0UF</em></p>
-        </div>
+        <section id="personal_info" role="contentinfo">
+            <!--writing contact details-->
+            <div id="contact" role="contactdetails">
+                <h1> Andreea Grigorescu</h1>
+                <h3>Personal Information</h3>
+                <p><em>Phone: 07475197110</em></p>
+                <p><em>Email: deea26@gmail.com</em></p>
+                <p><em> Address: 2 Vaughan Road, Thames Ditton, KT7 0UF</em></p>
+            </div>
         <!--end of personal information-->
 
         <!--writing the intro-->
-        <div id="intro"> 
-            <p><em>Andreea is a positive individual with a passion for all things tech. Since joining the Academy, Andreea has taken joy and pride in completing various assignments and projects. Her technical skill set and her creativity will be a wonderful addition to any company.</em> </p>
-        </div>
+            <div id="intro" role="introduction"> 
+                <p><em>Andreea is a positive individual with a passion for all things tech. Since joining the Academy, Andreea has taken joy and pride in completing various assignments and projects. Her technical skill set and her creativity will be a wonderful addition to any company.</em> </p>
+            </div>
         <!--end of writing the intro-->
+        </section>
 
         <!--work experience-->
+        <section id="experience" role="contentinfo">
         <h2><em>Experience</em></h2>
-        <div id="experience">
-            
+        
             <!--most recent job-->
             <div id="job">
                 <h3><strong>Sparta Global</strong></h3>
                 <h4><em>Web Developer</em></h4>
                 <p><em>November 2016 to Present</em></p>
-                <p>I develop the Internet</p>
+                
+                <!--job description-->
+                <div class="description">
+                    <p>I develop the Internet</p>
+                </div>
+                <!--end of description-->
+                
                 <p><em>Skills</em></p>
                 <div id="lists">
                     <ul>
@@ -44,6 +69,21 @@
                         <li>C++</li>
                     </ul>
                 </div>
+                
+                <!--beginning of the projects-->
+                <div class="projects">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li>Project 1</li>
+                            <details>A few words on the project.</details>
+                        <li>Project 2</li>
+                            <details>A few words on the project.</details>
+                        <li>Project 3</li>
+                            <details>A few words on the project.</details>
+                    </ul>
+                </div>
+                <!--end of projects-->
+                
             </div>
             <!--end of most recent job-->
             
@@ -54,7 +94,7 @@
                 <p><em>February 2011 to October 2016</em></p>
                 <p>Lead the team</p>
                 <p><em>Skills</em></p>
-                <div id="lists">
+                <div class="lists">
                     <ul>
                         <li>leadreship</li>
                         <li>communication/li>
@@ -63,34 +103,68 @@
             </div>
             <!--end of other jobs-->
 
-        </div>
+        </section>
         <!--end of work experience-->
 
         <!--education-->
-        <h2><em>Education</em></h2>
-        <div id="school">
+        <section id="school" role="contentinfo">
+            <h2><em>Education</em></h2>
             <h3>London Metropoltan</h3>
                 <h4><strong>IT Security and Law</strong></h4>
                 <em>September 2010 to June 2013</em>
                 <p>Studying various modules</p>
                 <p><em>Modules</em></p>
-                <div id="lists">
+                <div class="lists">
                     <ul>
                         <li>Operating systems</li>
                         <li>Java programming</li>
                     </ul>
                 </div>
-        </div>
+                <!--beginning of the projects-->
+                <div class="projects">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li>Project 1</li>
+                            <details>A few words on the project.</details>
+                        <li>Project 2</li>
+                            <details>A few words on the project.</details>
+                        <li>Project 3</li>
+                            <details>A few words on the project.</details>
+                    </ul>
+                </div>
+                <!--end of projects-->
+        </section>
         <!--end of education-->
         
         <!--hobbies-->
-        <h2><em>Hobbies</em></h2>
-        <div id="hobbies">
+
+        <section id="hobbies">
+            <h2><em>Hobbies</em></h2>
             <ul>
                 <li>Reading - I like reading mostly sci-fi literature. My favourite book is <em>The Hitchicker's Guide to the Galaxy</em></li>
                 <li>Badminton - I play since I was young as a recreational activity</li>
             </ul>
-        </div>
+        </section>
         <!--end of hobbies-->
+        
+        <!--contact form-->
+        <footer id="forms" role="contentinfo">
+            <h3>Contact me:</h3>
+            <form method="post" action="http://lacedeamon.spartaglobal.com/contactform">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                    
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                
+                <!--<label for="addressee">To</label>-->
+                <input type="hidden" name="addressee" value="Andreea">
+                
+                <label for="message">Message...</label>
+                <input type="text" name="message" id="message">
+                
+                <input type="submit" value="submit">
+            </form>
+        </footer>
     </body>
 </html>
