@@ -1,0 +1,319 @@
+    1  git
+    2  git clone https://github.com/spartaglobal/laptop.git $HOME/laptop
+    3  cd $HOME/laptop
+    4  $HOME/laptop/install
+    5  $ brew -v
+    6  brew -v
+    7  brew list
+    8  brew cask list
+    9  rbenv -v
+   10  ruby -v
+   11  node -v
+   12  vagrant -v
+   13  java -v
+   14  java -version
+   15  pwd
+   16  ls
+   17  la -a
+   18  ls -a
+   19  ls -l
+   20  ls -l-a
+   21  ls -l -a
+   22  ls -la
+   23  man -ls
+   24  man ls
+   25  cd
+   26  clear
+   27  cd
+   28  ls
+   29  cd desktop
+   30  mkdir somthing
+   31  ls
+   32  cd somthing
+   33  mkdir one two three four
+   34  ls
+   35  open .
+   36  cd four
+   37  touch something.txt
+   38  ls
+   39  cp something.txt
+   40  cp something.txt ../three
+   41  cd ../three
+   42  ls
+   43  open -a TextEdit something.txt
+   44  cp something.txt ../four land.txt
+   45  ls
+   46  cp something.txt ../four/land.txt
+   47  cd ../four
+   48  ls
+   49  open -a TextEdit land.txt
+   50  cd ../somthing
+   51  cd
+   52  cd desktop/somthing
+   53  mv ./four/something.txt ./one
+   54  cd one
+   55  ls
+   56  rm something.txt
+   57  ls
+   58  cd ..
+   59  ls
+   60  rmdir two
+   61  ls
+   62  rmdir one
+   63  ls
+   64  cd ./three
+   65  ls
+   66  cd ..
+   67  rmdir three
+   68  rm -rf three
+   69  ls
+   70  mkdir two
+   71  ls
+   72  echo "somthing"
+   73  echo "sometext" > sometext.txt
+   74  ls
+   75  echo sometext.txt
+   76  echo "sometext.txt"
+   77  open -a sometext.txt
+   78  open -a TextEdit sometext.txt
+   79  cat sometext.txt
+   80  ls
+   81  ls -l
+   82  whoami
+   83  groups
+   84  -h
+   85  pwwd
+   86  pwd
+   87  ls
+   88  cd desktop
+   89  touch file.pages
+   90  open file.pages
+   91  rm file.pages
+   92  echo "hello"> file.pages
+   93  open file
+   94  open file.pages
+   95  open file
+   96  open file.pages
+   97  open file.zip
+   98  touch file.pages
+   99  rm file.pages
+  100  echo "hello" > file.pages
+  101  rv file.pages
+  102  rm file.pages
+  103  echo "files are files" > file.pages
+  104  open -a pages file.pages
+  105  echo "hello world" > file
+  106  open - pages file
+  107  open -a pages files
+  108  open -a pages file
+  109  rm file
+  110  ls
+  111  rm file.pages
+  112  ls
+  113  echo "hello world" > file.txt
+  114  open -a pages file.txt
+  115  wc file.txt
+  116  home
+  117  mkdir files
+  118  cd files
+  119  mkdir file1 file2 file3
+  120  ls
+  121  cd file1
+  122  touch "hello world">file1.txt
+  123  ls
+  124  open file.txt
+  125  open file1.txt
+  126  open hello world
+  127  rm hello world
+  128  cd
+  129  cd .
+  130  ls
+  131  cd documents
+  132  cd desktop
+  133  cd .
+  134  cd
+  135  cd desktop
+  136  cd files
+  137  cd file1
+  138  cat file1.txt
+  139  cp file1.txt ~/file2
+  140  cd ~/file2
+  141  cd
+  142  ls
+  143  rm file2
+  144  cd desktop/files/file1
+  145  cp file1 /file2
+  146  cp file1.txt /file2
+  147  cp file1.txt /files/file2
+  148  cd /files/file2
+  149  cd files
+  150  cd ..
+  151  cd file2
+  152  ls
+  153  cp ~/desktop/files/file1/file1.txt ~desktop/files/file2
+  154  cp ~/desktop/files/file1/file1.txt ~desktop/files/file2/file2.txt
+  155  s
+  156  ls
+  157  open file2.txt
+  158  cp ~/file1/file1.txt ~/file2
+  159  ls
+  160  cp ../file1/file1.txt ../file2
+  161  ls
+  162  cd..
+  163  cd ..
+  164  ls -a
+  165  ls -l
+  166  open ../file1/file1.txt ../file2/file1.txt
+  167  open ./file1/file1.txt
+  168  open ./file1/file1.txt ./file2/file1.txt
+  169  mv ./file2/file2.txt ./file3
+  170  cd file3
+  171  ls
+  172  cd ./file2
+  173  cd ../file2
+  174  echo "the horses are racing"> file3.txt
+  175  ls
+  176  echo ../file1/file1.txt||file3.txt
+  177  cd ..
+  178  echo ./file1/file1.txt||./file2/file3.txt
+  179  open ./file1/file1.txt
+  180  open ./file2/file3.txt
+  181  mv ./file2/file3.txt ./file1
+  182  mv ./file3/file2.txt ./file1
+  183  cd file1
+  184  ls
+  185  cat file1.txt||file2.txt||file3.txt
+  186  tail -n +1 -- *
+  187  cd ..
+  188  tail -n +1 -- *
+  189  find . -type f -exec cat {} \+
+  190  find *.txt -exec cat {} \+
+  191  find *  -type f -exec cat {} \+
+  192  find .txt
+  193  find file*.txt
+  194  find file*
+  195  echo file*
+  196  cat file*
+  197  cat file*.txt
+  198  cat file* .txt
+  199  grep file1.txt
+  200  pwd
+  201  cd ./desktp/files
+  202  cd desktop
+  203  cd files
+  204  cat ./file1/file1.txt
+  205  cat ./file1/file1.txt|./file2/file4.txt
+  206  touch ./file2/file4.txt
+  207  cat ./file1/file1.txt|./file2/file4.txt
+  208  cd file2
+  209  ls
+  210  ls -l
+  211  chmod go +w
+  212  chmod g+w
+  213  ls -l
+  214  chmod ugo +w
+  215  chmod go +w file4.txt
+  216  chmod ugo +w file4.txt
+  217  hepl
+  218  help
+  219  info chmod
+  220  chmod -w ugo file4.txt
+  221  chmod +w file4.txt
+  222  ls -l
+  223  chmod -g +w file4.txt
+  224  chmod g +w file4.txt
+  225  chmod a+w file4.txt
+  226  ls -l
+  227  chmod a+rw file4.txt
+  228  ls -l
+  229  clear
+  230  ls
+  231  cd desktop
+  232  ls
+  233  mkdir sandbox
+  234  cd sandbox
+  235  mkdir git
+  236  cd git
+  237  pwd
+  238  git init
+  239  touch index.html
+  240  ls
+  241  open intex.html
+  242  open index.html
+  243  git status
+  244  git add index.html
+  245  git status
+  246  git commit -m created new index.html file
+  247  git commit -m "created new index.html file"
+  248  git status
+  249  gti commit -m "added a list"
+  250  git commit -m"added a list"
+  251  git add index.html
+  252  git commit -m"added a list"
+  253  git status
+  254  git log
+  255  git checkout 67cfc8e98f1444b7fb14b83d3453994ce3419e4c
+  256  git checkout master
+  257  git add index.html
+  258  git commit index.html
+  259  pwd
+  260  ls
+  261  cd documents
+  262  cd ..
+  263  cd desktop
+  264  cd sandbox2
+  265  cd git
+  266  ls
+  267  git init
+  268  ls
+  269  git add .
+  270  git status
+  271  git commit -m "first draft"
+  272  git remote -v
+  273  git remote add origin https://github.com/agrigorescu/online-cv.git
+  274  git remote -v
+  275  git pull
+  276  git push origin master
+  277  git push 
+  278  clear
+  279  git push
+  280  git push origin master
+  281  ls
+  282  git status
+  283  git log
+  284  git status
+  285  git add .
+  286  git status
+  287  git commit -m "added a space"
+  288  git log
+  289  git push
+  290  git push origin master
+  291  cd 
+  292  cd ..
+  293  cd desktop
+  294  ls
+  295  cd tech-a31
+  296  cd desktop
+  297  cd sandbox
+  298  cd ..
+  299  cd sandbox2
+  300  ls
+  301  cd git 
+  302  ls
+  303  cd ..
+  304  mkdir git2
+  305  mv ./cv2.html git2
+  306  cd git2
+  307  ls
+  308  git init
+  309  git remote add origin https://github.com/agrigorescu/online-cv.git
+  310  git remote -v
+  311  git pull
+  312  git pull origin master
+  313  git status
+  314  git add .
+  315  git commit -m "first draft"
+  316  git status
+  317  git log
+  318  git push origin master
+  319  history >> history.txt
