@@ -1,11 +1,11 @@
 body {
-    background-color: #F0F0F0;
+    background-color: white;
     font-family: serif;
 }
 
 a:link {
     text-decoration: none;
-    color: #FF3E96;
+    color: white;
 }
 
 a:visited {
@@ -15,4 +15,16 @@ a:visited {
 
 a:hover{
     text-decoration: underline;
+}
+
+a {
+    border: solid 1px;
+    border-color: white; 
+    padding: 2px;
+}
+
+nav {
+    background-color: #82CFFD;
+    /*border: solid 2px #82CFFD;*/
+    padding: 5px;
 }
