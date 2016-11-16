@@ -21,6 +21,9 @@ a {
     border: solid 1px;
     border-color: white; 
     padding: 2px;
+    font-size: 30px;
+    font-family: serif;
+    
 }
 
 nav {
@@ -28,3 +31,8 @@ nav {
     /*border: solid 2px #82CFFD;*/
     padding: 5px;
 }
+
+h1, h2, h3 {
+    border-bottom: solid 2px;
+}
+
