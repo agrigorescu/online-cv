@@ -1,3 +1,18 @@
 body {
-    background-color: grey;
+    background-color: #F0F0F0;
+    font-family: serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FF3E96;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #6B238E;
+}
+
+a:hover{
+    text-decoration: underline;
 }
