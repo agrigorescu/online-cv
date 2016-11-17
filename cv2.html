@@ -9,9 +9,6 @@
          <!--link the css file-->
          <link rel="stylesheet" type="text/css" href="style.css">
          
-         <style>
-            @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-        </style>
     </head>
 
     <!--the body of the page-->
@@ -20,7 +17,7 @@
         <header>
             <nav class="navigation">
                 <div>
-                    <a href="#personal_info">Personal Information</a> |
+                    <a href="#about">About</a> |
                     <a href="#experience">Experience</a> |
                     <a href="#school">Education</a> |
                     <a href="#hobbies">Hobbies</a> |
@@ -31,16 +28,11 @@
         <!--end of navigation-->
             
         <!--personal info-->
-        <section id="personal_info" role="contentinfo">
-            <!--writing contact details-->
-            <div id="contact" role="contactdetails">
-                <h1> Andreea Grigorescu</h1>
-                <h3>Personal Information</h3>
-                <p><em>Phone: 07475197110</em></p>
-                <p><em>Email: deea26@gmail.com</em></p>
-                <p><em> Address: 2 Vaughan Road, Thames Ditton, KT7 0UF</em></p>
-            </div>
-        <!--end of personal information-->
+        <section id="about" role="contentinfo">
+            
+            <!--adding the profile picture-->
+            <img href="/DSC_0533.jpg"
+            
 
         <!--writing the intro-->
             <div id="intro" role="introduction"> 
@@ -153,9 +145,20 @@
         </section>
         <!--end of hobbies-->
         
-        <!--contact form-->
-        <div id="forms" role="contentinfo">
+        <!--contact info-->
+        <div id="contact" role="contentinfo">
             <h3>Contact me:</h3>
+            <!--writing contact details-->
+            <div id="personal_info" role="contactdetails">
+                <h1> Andreea Grigorescu</h1>
+                <h3>Personal Information</h3>
+                <p><em>Phone: 07475197110</em></p>
+                <p><em>Email: deea26@gmail.com</em></p>
+                <p><em> Address: 2 Vaughan Road, Thames Ditton, KT7 0UF</em></p>
+            </div>
+        <!--end of personal information-->
+        
+        <!--contact form-->
             <form method="post" action="http://lacedeamon.spartaglobal.com/contactform">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name">
@@ -171,7 +174,10 @@
                 
                 <input type="submit" value="submit">
             </form>
+            <!--end of form-->
+            
         </div>
+        
         <!--signature footer-->
         <footer>
             <p>Designed by Andreea Grigorescu</p>
