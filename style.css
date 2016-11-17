@@ -1,8 +1,19 @@
+/*--begining of the css--*/
+
+/*--importing font--*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito');
+
 body {
     background-color: white;
-    font-family: serif;
+    font-family: 'Nunito',serif;
+    padding: 2%;
+	font-size: 22px;
+	color: black;
+	line-height: 26px;
+	text-align: justify;
 }
 
+/*--link decorations--*/
 a:link {
     text-decoration: none;
     color: white;
@@ -18,17 +29,15 @@ a:hover{
 }
 
 a {
-    border: solid 1px;
-    border-color: white; 
     padding: 2px;
-    font-size: 30px;
-    font-family: serif;
+    font-size: 150%;
+ 
     
 }
 
+/*--nav styling--*/
 nav {
     background-color: #82CFFD;
-    /*border: solid 2px #82CFFD;*/
     padding: 5px;
 }
 
@@ -36,3 +45,7 @@ h1, h2, h3 {
     border-bottom: solid 2px;
 }
 
+footer {
+    font-family: 'Indie Flower', 'Nunito', serif;
+    font-size: 65%;
+}
