@@ -39,8 +39,34 @@ a {
 nav {
     background-color: #82CFFD;
     padding: 5px;
+    width: 100%;
+    margin: 1% auto;
+    overflow: hidden;
+    position: relative;
 
-}
+    }
+
+nav ul  {
+    	list-style: none;
+    	overflow: hidden;
+    }
+
+    nav li a {
+    	border-right: 1px solid #454545;
+    	display: block;
+    	float: left;
+    	font-size: 120%;
+    	font-weight: 600;
+    	padding: 1%;
+    	text-align: center;
+    	text-decoration: none;
+    	width: 17%;
+    	transition: background 0.5s ease;
+    }
+
+nav li:last-child a {
+    	border: none;
+    }
 
 h1, h2, h3 {
     border-bottom: solid 2px;
