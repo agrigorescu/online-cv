@@ -3,10 +3,10 @@
     <!--establishing the tile of the page-->
     <head>
          <title> CV </title>
-         
+
          <!--link the css file-->
          <link rel="stylesheet" type="text/css" href="style.css">
-         
+
     </head>
 
     <!--the body of the page-->
@@ -14,27 +14,36 @@
         <!--start of the navigation bar-->
         <header>
             <nav class="navigation">
-                <div>
-                    <a href="#about">About</a> |
-                    <a href="#experience">Experience</a> |
-                    <a href="#school">Education</a> |
-                    <a href="#hobbies">Hobbies</a> |
-                    <a href="#forms">Contact me</a> 
-                </div>
+                <ul>
+                    <li><a href="#about">About</a></li> |
+                    <li><a href="#experience">Experience</a></li> |
+                    <li><a href="#school">Education</a></li> |
+                    <li><a href="#hobbies">Hobbies</a></li> |
+                    <li><a href="#forms">Contact me</a></li>
+                </ul>
             </nav>
         </header>
         <!--end of navigation-->
-            
+
         <!--personal info-->
-        <section id="about" role="contentinfo">
-            
+        <section id="homepage" role="contentinfo">
+
             <!--adding the profile picture-->
-            <img href="/DSC_0533.jpg"
-            
+            <img src="DSC_0533.jpg" alt="profile picture" style="width:304px;height:228px;">
+            <!--first thing to be seen when landing on the page-->
+            <div id="intro">
+                <h1>Andreea Grigorescu</h1>
+                <h3>Web Developer</h3>
+                <p>London, United Kingdom</p>
+            </div>
+
 
         <!--writing the intro-->
-            <div id="intro" role="introduction"> 
-                <p><em>Andreea is a positive individual with a passion for all things tech. Since joining the Academy, Andreea has taken joy and pride in completing various assignments and projects. Her technical skill set and her creativity will be a wonderful addition to any company.</em> </p>
+            <div id="about" role="introduction">
+                <h2>About</h2>
+                <p><em>Andreea is a positive individual with a passion for all things tech.</em> </p>
+                <p><em>Since joining the Academy, Andreea has taken joy and pride in completing various assignments and projects.</em> </p>
+                <p><em>Her technical skill set and her creativity will be a wonderful addition to any company .</em> </p>
             </div>
         <!--end of writing the intro-->
         </section>
@@ -42,19 +51,19 @@
         <!--work experience-->
         <section id="experience" role="contentinfo">
         <h2><em>Experience</em></h2>
-        
+
             <!--most recent job-->
             <div id="job">
                 <h3><strong>Sparta Global</strong></h3>
                 <h4><em>Web Developer</em></h4>
                 <p><em>November 2016 to Present</em></p>
-                
+
                 <!--job description-->
                 <div class="description">
-                    <p>I develop the Internet</p>
+                    <p>During my time at the Academy, I have enjoyed studying about the various technologies used today in the Web Development world. Have been involved in a few AGILE sprints for various projects, which proved to be quite challenging and rewarding.</p>
                 </div>
                 <!--end of description-->
-                
+
                 <p><em>Skills</em></p>
                 <div id="lists">
                     <ul>
@@ -65,7 +74,7 @@
                         <li>C++</li>
                     </ul>
                 </div>
-                
+
                 <!--beginning of the projects-->
                 <div class="projects">
                     <h4>Projects</h4>
@@ -79,10 +88,10 @@
                     </ul>
                 </div>
                 <!--end of projects-->
-                
+
             </div>
             <!--end of most recent job-->
-            
+
             <!--other jobs-->
             <div id="job">
                 <h3><strong>Pret</strong></h3>
@@ -131,7 +140,7 @@
                 <!--end of projects-->
         </section>
         <!--end of education-->
-        
+
         <!--hobbies-->
 
         <section id="hobbies">
@@ -142,40 +151,39 @@
             </ul>
         </section>
         <!--end of hobbies-->
-        
+
         <!--contact info-->
         <div id="contact" role="contentinfo">
             <h3>Contact me:</h3>
             <!--writing contact details-->
             <div id="personal_info" role="contactdetails">
-                <h1> Andreea Grigorescu</h1>
-                <h3>Personal Information</h3>
+                <h4> Andreea Grigorescu</h4>
                 <p><em>Phone: 07475197110</em></p>
-                <p><em>Email: deea26@gmail.com</em></p>
+                <p><em>Email: <a href="mailto:deea26@gmail.com">deea26@gmail.com</a></em></p>
                 <p><em> Address: 2 Vaughan Road, Thames Ditton, KT7 0UF</em></p>
             </div>
         <!--end of personal information-->
-        
-        <!--contact form-->
+
+        <!--contact form
             <form method="post" action="http://lacedeamon.spartaglobal.com/contactform">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name">
-                    
+
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email">
-                
-                <!--<label for="addressee">To</label>-->
+
+                <label for="addressee">To</label>
                 <input type="hidden" name="addressee" value="Andreea">
-                
+
                 <label for="message">Message...</label>
                 <input type="text" name="message" id="message">
-                
+
                 <input type="submit" value="submit">
             </form>
-            <!--end of form-->
-            
+            end of form-->
+
         </div>
-        
+
         <!--signature footer-->
         <footer>
             <p>Designed by Andreea Grigorescu</p>

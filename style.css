@@ -16,7 +16,7 @@ body {
 /*--link decorations--*/
 a:link {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
 
 a:visited {
@@ -31,15 +31,15 @@ a:hover{
 a {
     padding: 2px;
     font-size: 150%;
- 
-    
+
+
 }
 
 /*--nav styling--*/
 nav {
     background-color: #82CFFD;
     padding: 5px;
-    
+
 }
 
 h1, h2, h3 {
