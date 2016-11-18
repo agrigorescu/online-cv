@@ -1,3 +1,4 @@
+
 /*--begining of the css--*/
 
 /*--importing font--*/
@@ -7,7 +8,6 @@
 body {
     background-color: white;
     font-family: 'Nunito',serif;
-    padding: 2%;
 	  font-size: 22px;
 	  color: black;
 	  line-height: 26px;
@@ -15,12 +15,15 @@ body {
 }
 
  h2 {
-    border-bottom: solid 2px;
+    text-align: center;
+    padding-top: 1%;
 }
 
 footer {
     font-family: 'Indie Flower', 'Nunito', serif;
     font-size: 65%;
+    text-align: right;
+    background-color: #B0C4DE;
 }
 
 #email {
@@ -34,7 +37,14 @@ section {
 }
 
 #about, #school, #contact {
-  background-color: #82CFFD;
+  background-color: #FFFFED;
+  font-size: 85%;
+  width: 100%;
+  left: 0;
+}
+#experience, #hobbies {
+  font-size: 85%;
+  width: 100%;
 }
 
 /*--end of standard styling--*/
@@ -63,15 +73,22 @@ a {
 /*--end of link decorations--*/
 
 /*--nav styling--*/
+
+header {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+}
+
 nav {
-    background-color: #82CFFD;
+    background-color: white;
     width: 100%;
     overflow: hidden;
-    position: fixed;
     top: 0;
     left: 0;
-
-    }
+  }
 
 nav ul  {
     	list-style: none;
@@ -102,28 +119,44 @@ img {
 }
 /*--end of profile picture--*/
 
-/*--styling the greeting--*/
-#greeting {
-      font-family: 'Indie Flower', serif;
-      font-size: 130%;
-}
-/*--end of styling the greeting--*/
-
 /*--display the profile pic and the intro on the same line--*/
 img, #intro {
   display: inline-block;
 }
 
 img {
-  width: 30%;
+  width: 40%;
   padding: 2%;
-  position: relative;
   margin-top: 7%;
 }
 
 #intro {
   width: 60%;
-  position: relative;
   padding: 2%;
 }
+#homepage {
+  padding: 10%;
+}
 /*--end of homepage styling--*/
+
+/*--about section - styling the greeting--*/
+ #greeting, .summary {
+  display: inline;
+}
+
+#greeting {
+  font-family: 'Indie Flower', serif;
+  font-size: 1300%;
+  width: 40%;
+  margin-left: 2%;
+  float: left;
+  padding-top: 7%;
+}
+
+.summary {
+  width: 60%;
+  margin-left: 2%;
+  text-align: right;
+}
+
+/*--end of styling the greeting--*/
