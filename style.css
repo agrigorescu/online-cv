@@ -14,7 +14,7 @@ body {
 	  text-align: justify;
 }
 
-h1, h2, h3 {
+ h2 {
     border-bottom: solid 2px;
 }
 
@@ -27,6 +27,16 @@ footer {
     color: black;
     font-size: 100%;
 }
+
+
+section {
+  display: block;
+}
+
+#about, #school, #contact {
+  background-color: #82CFFD;
+}
+
 /*--end of standard styling--*/
 
 /*--link decorations--*/
@@ -55,11 +65,11 @@ a {
 /*--nav styling--*/
 nav {
     background-color: #82CFFD;
-    padding: 5px;
     width: 100%;
-    margin: 1% auto;
     overflow: hidden;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
 
     }
 
@@ -68,7 +78,7 @@ nav ul  {
     	overflow: hidden;
     }
 
-    nav li a {
+nav li a {
     	border-right: 1px solid #454545;
     	display: block;
     	float: left;
@@ -86,6 +96,11 @@ nav li:last-child a {
     }
 /*--end of nav styling--*/
 
+/*--profile picture--*/
+img {
+  border-radius: 50%;
+}
+/*--end of profile picture--*/
 
 /*--styling the greeting--*/
 #greeting {
@@ -93,3 +108,22 @@ nav li:last-child a {
       font-size: 130%;
 }
 /*--end of styling the greeting--*/
+
+/*--display the profile pic and the intro on the same line--*/
+img, #intro {
+  display: inline-block;
+}
+
+img {
+  width: 30%;
+  padding: 2%;
+  position: relative;
+  margin-top: 7%;
+}
+
+#intro {
+  width: 60%;
+  position: relative;
+  padding: 2%;
+}
+/*--end of homepage styling--*/
