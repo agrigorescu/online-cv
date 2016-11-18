@@ -143,7 +143,7 @@ nav li:last-child a {
 
 /*--about section - styling the greeting--*/
  #greeting, .summary {
-  display: inline;
+  display: inline-block;;
 }
 
 #greeting {
@@ -151,13 +151,14 @@ nav li:last-child a {
   font-size: 1300%;
   margin-left: 2%;
   float: left;
-  padding-top: 8%;
+  padding-top: 11%;
 }
 
 .summary {
   margin: 2%;
-  text-align: right;
-  padding-right: 2%;
+  text-align: left;
+  padding-left: 2%;
+  padding-bottom: 5%;
 }
 
 /*--end of styling the greeting--*/
@@ -169,6 +170,12 @@ nav li:last-child a {
   height: 100%;
   margin: 0.5%;
 }
+
+#experience {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+}
 /*--end of experience--*/
 
 /*--styling the social buttons--*/
@@ -177,5 +184,6 @@ nav li:last-child a {
 }
 
 .socialButton {
-  width: 10%;
+  width: 38px;
+  margin: 0 5px;
 }
