@@ -197,3 +197,15 @@ nav li:last-child a {
   padding-left: 2%;
 }
 /*--end of interests--*/
+
+/*--contact me section--*/
+#contact {
+  text-indent: 2%;
+}
+/*--and of contact section--*/
+
+/*--education section--*/
+#school {
+  text-indent: 2%;
+}
+/*--end of education section--*/
