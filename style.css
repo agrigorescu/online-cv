@@ -23,7 +23,6 @@ footer {
     font-family: 'Indie Flower', 'Nunito', serif;
     font-size: 65%;
     text-align: right;
-    background-color: #B0C4DE;
 }
 
 #email {
@@ -41,10 +40,13 @@ section {
   font-size: 85%;
   width: 100%;
   left: 0;
+  float:left;
 }
 #experience, #hobbies {
   font-size: 85%;
   width: 100%;
+  float: left;
+  background-color: white;
 }
 
 /*--end of standard styling--*/
@@ -114,18 +116,18 @@ nav li:last-child a {
 /*--end of nav styling--*/
 
 /*--profile picture--*/
-img {
+#profilePicture {
   border-radius: 50%;
 }
 /*--end of profile picture--*/
 
 /*--display the profile pic and the intro on the same line--*/
-img, #intro {
+#profilePicture, #intro {
   display: inline-block;
 }
 
-img {
-  width: 40%;
+#profilePicture {
+  width: 29%;
   padding: 2%;
   margin-top: 7%;
 }
@@ -147,16 +149,33 @@ img {
 #greeting {
   font-family: 'Indie Flower', serif;
   font-size: 1300%;
-  width: 40%;
   margin-left: 2%;
   float: left;
-  padding-top: 7%;
+  padding-top: 8%;
 }
 
 .summary {
-  width: 60%;
-  margin-left: 2%;
+  margin: 2%;
   text-align: right;
+  padding-right: 2%;
 }
 
 /*--end of styling the greeting--*/
+
+/*--experience section styling--*/
+.job {
+  float: left;
+  width: 45%;
+  height: 100%;
+  margin: 0.5%;
+}
+/*--end of experience--*/
+
+/*--styling the social buttons--*/
+.socialButton, footer p {
+  float: right;
+}
+
+.socialButton {
+  width: 10%;
+}

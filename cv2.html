@@ -29,7 +29,7 @@
         <section id="homepage" role="contentinfo">
 
             <!--adding the profile picture-->
-            <img src="DSC_0533.jpg" alt="profile picture" style="width:304px;height:228px;">
+            <img id="profilePicture" src="DSC_0533.jpg" />
             <!--first thing to be seen when landing on the page-->
             <div id="intro">
                 <h1>Andreea Grigorescu</h1>
@@ -64,33 +64,37 @@
                 <p><em>November 2016 to Present</em></p>
 
                 <!--job description-->
-                <div class="description">
+                <div id="description">
                     <p>During my time at the Academy, I have enjoyed studying about the various technologies used today in the Web Development world. Have been involved in a few AGILE sprints for various projects, which proved to be quite challenging and rewarding.</p>
                 </div>
                 <!--end of description-->
 
                 <p><em>Skills</em></p>
-                <div class="lists">
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Java</li>
-                        <li>C++</li>
-                    </ul>
-                </div>
+                  <details>
+                      <div id="lists">
+                          <ul>
+                              <li>HTML</li>
+                              <li>CSS</li>
+                              <li>JavaScript</li>
+                              <li>Java</li>
+                              <li>C++</li>
+                          </ul>
+                      </div>
+                  </details>
 
                 <!--beginning of the projects-->
-                <div class="projects">
+                <div id="projects">
                     <h4>Projects</h4>
-                    <ul>
-                        <li>Project 1</li>
-                            <details>A few words on the project.</details>
-                        <li>Project 2</li>
-                            <details>A few words on the project.</details>
-                        <li>Project 3</li>
-                            <details>A few words on the project.</details>
-                    </ul>
+                      <details>
+                          <ul>
+                              <li>Project 1</li>
+                                <details>A few words on the project.</details>
+                              <li>Project 2</li>
+                                <details>A few words on the project.</details>
+                              <li>Project 3</li>
+                                <details>A few words on the project.</details>
+                          </ul>
+                      </details>
                 </div>
                 <!--end of projects-->
 
@@ -105,7 +109,7 @@
                 <p>In my position as a Team Leader, I was responsible for driving results across all areas of the business. I was responsible for implementing new standards across the team and ensuring that they were maintained. Also, I was supervising, monitoring and issuing instruction to team members. I was in charge of all the cash handling procedures in the absence of the Manager. In addition, I was dealing with customer complaints in an effective and efficient manner.
 </p>
                 <p><em>Skills</em></p>
-                <div class="lists">
+                <div id="lists">
                     <ul>
                         <li>leadreship</li>
                         <li>communication</li>
@@ -196,6 +200,12 @@
         <!--signature footer-->
         <footer>
             <p>Designed by Andreea Grigorescu</p>
+            <ul class="coontainer">
+                <a class="socialButton" href="https://medium.com/@deea26"><img src="medium.png" /></a>
+                <a class="socialButton" href="https://www.linkedin.com/in/andreea-grigorescu-71a8b0114"><img src="linkedin.png" /></a>
+                <a class="socialButton" href="https://github.com/agrigorescu"><img src="github.png" /></a>
+                <a class="socialButton" href="https://twitter.com/Pink_PumPkin26"><img src="twitter.png" /></a>
+            </ul>
         </footer>
     </body>
 </html>
