@@ -3,20 +3,36 @@
 /*--importing font--*/
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito');
 
+/*--standard styling--*/
 body {
     background-color: white;
     font-family: 'Nunito',serif;
     padding: 2%;
-	font-size: 22px;
-	color: black;
-	line-height: 26px;
-	text-align: justify;
+	  font-size: 22px;
+	  color: black;
+	  line-height: 26px;
+	  text-align: justify;
 }
+
+h1, h2, h3 {
+    border-bottom: solid 2px;
+}
+
+footer {
+    font-family: 'Indie Flower', 'Nunito', serif;
+    font-size: 65%;
+}
+
+#email {
+    color: black;
+    font-size: 100%;
+}
+/*--end of standard styling--*/
 
 /*--link decorations--*/
 a:link {
     text-decoration: none;
-    color: grey;
+    color: white;
 }
 
 a:visited {
@@ -34,6 +50,7 @@ a {
 
 
 }
+/*--end of link decorations--*/
 
 /*--nav styling--*/
 nav {
@@ -67,12 +84,12 @@ nav ul  {
 nav li:last-child a {
     	border: none;
     }
+/*--end of nav styling--*/
 
-h1, h2, h3 {
-    border-bottom: solid 2px;
-}
 
-footer {
-    font-family: 'Indie Flower', 'Nunito', serif;
-    font-size: 65%;
+/*--styling the greeting--*/
+#greeting {
+      font-family: 'Indie Flower', serif;
+      font-size: 130%;
 }
+/*--end of styling the greeting--*/
