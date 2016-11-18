@@ -187,3 +187,13 @@ nav li:last-child a {
   width: 38px;
   margin: 0 5px;
 }
+/*--end of social buttons--*/
+
+/*--styling the interests--*/
+#hobbies p {
+  text-indent: 5%;
+  text-align: left;
+  column-count: 3;
+  padding-left: 2%;
+}
+/*--end of interests--*/
