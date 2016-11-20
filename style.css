@@ -260,6 +260,7 @@ nav li:last-child a {
 }
 
 /*--media responsiveness for mobile phones--*/
+@media only screen and (max-width: 380px) {
 body {
   font-size: 60%;
   line-height: 5px;
@@ -300,8 +301,6 @@ nav {
 h3 .job {
   text-decoration: underline;
 }
-
-
 
 .school {
   display: block;
