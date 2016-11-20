@@ -203,6 +203,7 @@ nav li:last-child a {
 /*--contact me section--*/
 #contact {
   text-indent: 2%;
+  line-height: 0;
 }
 /*--and of contact section--*/
 
@@ -221,3 +222,96 @@ nav li:last-child a {
   margin: 0.5%;
 }
 /*--end of education section--*/
+
+/*--media responsiveness for tablet---*/
+@media only screen and (max-width: 780px) {
+  nav li a {
+    font-size: 100%;
+  }
+
+  #greeting {
+    font-size: 1000%;
+    padding-bottom: 7%;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .job {
+    display: block;
+    width: 96%;
+    text-indent: 2%;
+    padding: 0 2%;
+  }
+
+  h3 .job {
+    text-decoration: underline;
+  }
+
+
+
+  .school {
+    display: block;
+    width: 96%;
+    padding: 0 2%;
+    text-indent: 2%;
+  }
+
+}
+
+/*--media responsiveness for mobile phones--*/
+body {
+  font-size: 60%;
+  line-height: 5px;
+}
+
+p {
+  line-height: normal;
+}
+
+li {
+  line-height: normal;
+}
+
+nav {
+  font-size: 60%;
+}
+
+#intro {
+  font-size: 70%;
+  line-height: 3px;
+}
+
+#greeting {
+  font-size: 700%;
+  padding-bottom: 7%;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.job {
+  display: block;
+  width: 94%;
+  text-indent: 2%;
+  padding: 0 3%;
+}
+
+h3 .job {
+  text-decoration: underline;
+}
+
+
+
+.school {
+  display: block;
+  width: 96%;
+  padding: 0 3%;
+  text-indent: 2%;
+}
+
+#hobbies {
+  column-count: 1;
+}
+
+}
