@@ -1,0 +1,119 @@
+/*--begining of the css--*/
+
+/*--importing font--*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito');
+
+/*--standard styling--*/
+body {
+    font-family: 'Nunito',serif;
+	  font-size: 22px;
+	  color: black;
+	  line-height: 26px;
+	  text-align: justify;
+}
+
+ h2 {
+    text-align: center;
+    padding-top: 1%;
+}
+
+footer {
+    font-family: 'Indie Flower', 'Nunito', serif;
+    font-size: 65%;
+    text-align: right;
+}
+
+#email {
+    color: black;
+    font-size: 100%;
+}
+
+
+section {
+  display: block;
+}
+
+#about, #school, #contact {
+  background-color: #FFFFED;
+  font-size: 85%;
+  width: 100%;
+  left: 0;
+  float:left;
+}
+#homepage,#experience, #hobbies {
+  font-size: 85%;
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+
+/*--end of standard styling--*/
+
+/*--link decorations--*/
+a:link {
+    text-decoration: none;
+    color: #6B238E;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #6B238E;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a {
+    padding: 2px;
+    font-size: 150%;
+
+
+}
+/*--end of link decorations--*/
+
+/*--profile picture--*/
+#profilePicture {
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+}
+/*--end of profile picture--*/
+
+/*--styling the nav bar--*/
+
+header {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+  }
+
+nav ul  {
+    	list-style: none;
+    	overflow: hidden;
+      align-content: center;
+    }
+
+nav li a {
+    	display: block;
+    	float: left;
+    	font-size: 120%;
+    	font-weight: 600;
+    	padding: 3%;
+    	text-align: center;
+    	text-decoration: none;
+    	transition: background 0.5s ease;
+    }
+
+/*--end of styling od the navbar--*/

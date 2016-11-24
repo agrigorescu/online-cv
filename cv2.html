@@ -4,29 +4,51 @@
     <head>
          <title> CV </title>
 
+
+         <!--link the Materialize framework-->
+         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+         <!--link the jQuery file-->
+         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+         <script src="jQuery.js"></script>
          <!--link the css file-->
-         <link rel="stylesheet" type="text/css" href="style.css">
+         <link rel="stylesheet" type="text/css" href="style2.css">
 
     </head>
 
     <!--the body of the page-->
     <body>
+      <div class="container">
+        <div class="parallax-container">
+          <div class="parallax"><img src="background-paralax.jpg"></div>
+        </div>
         <!--start of the navigation bar-->
+
         <header>
+
             <nav>
-                <ul>
+              <div class="nav-wrapper">
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                  <ul class="right hide-on-med-and-down">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#school">Education</a></li>
                     <li><a href="#hobbies">Interests</a></li>
                     <li><a href="#contact">Contact</a></li>
-                </ul>
+                  </ul>
+                  <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#school">Education</a></li>
+                    <li><a href="#hobbies">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
             </nav>
         </header>
         <!--end of navigation-->
 
         <!--personal info-->
-        <section id="homepage" role="contentinfo">
+        <section id="homepage" class="card-panel" role="contentinfo">
 
             <!--adding the profile picture-->
             <img id="profilePicture" src="DSC_0533.jpg" />
@@ -38,7 +60,7 @@
             </div>
         </section>
 
-        <section id="about">
+        <section id="about" class="card-panel">
             <!--writing the intro-->
             <div role="introduction">
                 <h2>About</h2>
@@ -54,7 +76,7 @@
         </section>
 
         <!--work experience-->
-        <section id="experience" role="contentinfo">
+        <section id="experience" role="contentinfo" class="card-panel">
         <h2>Experience</h2>
 
             <!--most recent job-->
@@ -122,7 +144,7 @@
         <!--end of work experience-->
 
         <!--education-->
-        <section id="school" role="contentinfo">
+        <section id="school" role="contentinfo" class="card-panel">
           <h2>Education</h2>
             <div class="school">
                 <h3>London Metropoltan</h3>
@@ -185,14 +207,14 @@
         <!--end of education-->
 
         <!--hobbies-->
-        <section id="hobbies">
+        <section id="hobbies" class="card-panel">
             <h2>Interests</h2>
             <p>Although I am a very pragmatic person, I do enjoy seeing the world through the lenses of my camera. I like to explore my surrounding environment and look for the miracles of Mother Nature. I have recently participated in a photography competition at my Buddhist Center with the occasion of the Lantern Festival, where my photo won second place. Also, I like reading any kind of books, from historical novels to enciclopedias. My favourite genres being science fiction and thrillers/mystery novels. Equally, during summer, I find pleasure in playing a friendly match of badminton.</p>
         </section>
         <!--end of hobbies-->
 
         <!--contact info-->
-        <div id="contact" role="contentinfo">
+        <div id="contact" role="contentinfo" class="card-panel">
             <h3>Contact me:</h3>
             <!--writing contact details-->
             <div class="personal_info" role="contactdetails">
@@ -224,7 +246,7 @@
         </div>
 
         <!--signature footer-->
-        <footer>
+        <footer class="card-panel">
             <ul class="coontainer">
                 <a class="socialButton" href="https://medium.com/@deea26"><img src="medium.png" /></a>
                 <a class="socialButton" href="https://www.linkedin.com/in/andreea-grigorescu-71a8b0114"><img src="linkedin.png" /></a>
@@ -233,5 +255,6 @@
             </ul>
             <p>Designed by Andreea Grigorescu</p>
         </footer>
+      </div>
     </body>
 </html>
