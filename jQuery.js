@@ -1,4 +1,4 @@
-$( document ).ready(function(){
+$(function(){
     console.log("the dom is ready");
 
     //collapsing the navbar when in mobile mode
