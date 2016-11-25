@@ -27,11 +27,11 @@ $(function(){
       $('.carousel.carousel-slider').carousel({full_width: true});
 
       //using typed.js - typing the word hello in the about section
-      // $(".element").typed({
-      //   strings: ["Hello!"],
-      //   typeSpeed: ,
-      //   contentType: 'text' // or 'text'
-      // });
+      $(".element").typed({
+        strings: ["Hello!"],
+        typeSpeed: 50,
+        startDelay: 5000
+      });
 
 
-})
+});
