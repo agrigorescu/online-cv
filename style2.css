@@ -44,15 +44,18 @@ footer {
     color: black;
 }
 
-#about, #school, #contact {
-  background-color: #FFFFED;
+#about, #hobbies {
+  background-color: #FEEDDD; /*#FFFFED;*/
   left: 0;
 }
 
-#homepage,#experience, #hobbies {
-  background-color: white;
+#homepage, #contact {
+  background-color: #FCEBCD;
 }
 
+#experience, #school {
+	background-color: #FCCA80;
+}
 /*--end of standard styling--*/
 
 /*--link decorations--*/
@@ -86,7 +89,7 @@ a {
 /*--styling the nav bar--*/
 
 nav {
-    background-color: white;
+    background-color: #FEEDDD;
     width: 100%;
     margin: 1% auto;
     overflow: hidden;
@@ -103,7 +106,6 @@ nav li a {
     	text-align: center;
     	text-decoration: none;
     	transition: background 0.5s ease;
-      background: #737373;
     }
 
 /*--end of styling od the navbar--*/
@@ -152,6 +154,32 @@ nav li a {
   padding-bottom: 5%;
 }
 /*--end of styling the greeting--*/
+
+/*--the greeting animation--*/
+
+typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*--end of the greeting animation--*/
 
 /*--experience section styling--*/
 #experience {

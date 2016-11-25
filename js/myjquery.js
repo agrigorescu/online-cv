@@ -26,4 +26,12 @@ $(function(){
       //initializing carousel
       $('.carousel.carousel-slider').carousel({full_width: true});
 
+      //using typed.js - typing the word hello in the about section
+      // $(".element").typed({
+      //   strings: ["Hello!"],
+      //   typeSpeed: ,
+      //   contentType: 'text' // or 'text'
+      // });
+
+
 })
