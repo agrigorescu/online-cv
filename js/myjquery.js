@@ -3,10 +3,27 @@ $(function(){
 
     //collapsing the navbar when in mobile mode
     $(".button-collapse").sideNav({
-      
+
     });
 
     //including the parallax scrolling effect
     $('.parallax').parallax();
+
+    //smooth scrolling
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+
+      //initializing carousel
+      $('.carousel.carousel-slider').carousel({full_width: true});
 
 })

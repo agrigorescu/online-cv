@@ -2,10 +2,10 @@
 /*--begining of the css--*/
 
 /*--importing font--*/
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito');
+/*@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito');*/
 
 /*--standard styling--*/
-body {
+/*body {
     background-color: white;
     font-family: 'Nunito',serif;
 	  font-size: 22px;
@@ -47,12 +47,12 @@ section {
   width: 100%;
   float: left;
   background-color: white;
-}
+}*/
 
 /*--end of standard styling--*/
 
 /*--link decorations--*/
-a:link {
+/*a:link {
     text-decoration: none;
     color: #6B238E;
 }
@@ -71,11 +71,11 @@ a {
     font-size: 150%;
 
 
-}
+}*/
 /*--end of link decorations--*/
 
 /*--nav styling--*/
-
+/*
 header {
   position: fixed;
   width: 100%;
@@ -112,17 +112,17 @@ nav li a {
 
 nav li:last-child a {
     	border: none;
-    }
+    }*/
 /*--end of nav styling--*/
 
 /*--profile picture--*/
-#profilePicture {
+/*#profilePicture {
   border-radius: 50%;
-}
+}*/
 /*--end of profile picture--*/
 
 /*--display the profile pic and the intro on the same line--*/
-#profilePicture, #intro {
+/*#profilePicture, #intro {
   display: inline-block;
 }
 
@@ -140,7 +140,7 @@ nav li:last-child a {
 
 #homepage {
   padding: 10%;
-}
+}*/
 /*--end of homepage styling--*/
 
 /*--about section - styling the greeting--*/

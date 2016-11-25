@@ -12,39 +12,44 @@
 /*--standard styling--*/
 body {
     font-family: 'Nunito',serif;
-	  font-size: 22px;
 	  color: black;
-	  line-height: 26px;
 	  text-align: justify;
 }
 
- h2 {
+	h1 {
+		font-size: 4vw;
+	}
+
+  h3 {
+		font-size: 3.3vw
+}
+
+  h2 {
     text-align: center;
     padding-top: 1%;
+		font-size: 3.7vw;
+}
+
+  h4 {
+		font-size: 2.8vw;
 }
 
 footer {
     font-family: 'Indie Flower', 'Nunito', serif;
-    font-size: 65%;
+    font-size: 1vw;
     text-align: right;
 }
 
 #email {
     color: black;
-    font-size: 100%;
 }
 
 #about, #school, #contact {
   background-color: #FFFFED;
-  font-size: 85%;
-  width: 100%;
   left: 0;
-  float:left;
 }
+
 #homepage,#experience, #hobbies {
-  font-size: 85%;
-  width: 100%;
-  float: left;
   background-color: white;
 }
 
@@ -69,15 +74,12 @@ a:hover{
 
 a {
     padding: 2px;
-    font-size: 150%;
 }
 /*--end of link decorations--*/
 
 /*--profile picture--*/
 #profilePicture {
   border-radius: 50%;
-  height: 50%;
-  width: 50%;
 }
 /*--end of profile picture--*/
 
@@ -105,3 +107,82 @@ nav li a {
     }
 
 /*--end of styling od the navbar--*/
+
+/*--editing the parallax effect--*/
+	#parallax1.parallax-container {
+		height: 30vh;
+	}
+
+	.parallax-container {
+		height: 50vh;
+	}
+/*-- end of editing the first parallax effect--*/
+
+/*--display the profile pic and the intro on the same line--*/
+#profilePicture, #intro {
+  display: inline-block;
+}
+
+#profilePicture {
+  width: 30%;
+  padding: 2%;
+  margin-top: 7%;
+}
+
+#homepage {
+  padding: 10%;
+}
+/*--end of homepage styling--*/
+
+/*--about section - styling the greeting--*/
+ #greeting, .summary {
+  display: inline-block;;
+}
+
+#greeting {
+  font-family: 'Indie Flower', serif;
+  font-size: 15vw;
+  margin-left: 2%;
+}
+
+.summary {
+  margin: 2%;
+  text-align: left;
+  padding-left: 2%;
+  padding-bottom: 5%;
+}
+/*--end of styling the greeting--*/
+
+/*--experience section styling--*/
+.job {
+  /*width: 45vw;*/
+  height: 100%;
+  /*margin: 0.5%;*/
+}
+
+#experience {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+}
+/*--end of experience--*/
+
+/*--media queries--*/
+@media only screen and (max-width: 780px) {
+	p {
+		font-size: 2.5vw;
+	}
+
+	details {
+		font-size: 2.5vw;
+	}
+
+	.lists {
+		font-size: 2.5vw;
+	}
+
+
+	#greeting{
+			margin: 0 33%;
+	}
+}
