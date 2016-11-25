@@ -144,7 +144,7 @@ nav li:last-child a {
 /*--end of homepage styling--*/
 
 /*--about section - styling the greeting--*/
- #greeting, .summary {
+ /*#greeting, .summary {
   display: inline-block;;
 }
 
@@ -161,12 +161,12 @@ nav li:last-child a {
   text-align: left;
   padding-left: 2%;
   padding-bottom: 5%;
-}
+}*/
 
 /*--end of styling the greeting--*/
 
 /*--experience section styling--*/
-.job {
+/*.job {
   float: left;
   width: 45%;
   height: 100%;
@@ -177,38 +177,38 @@ nav li:last-child a {
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 1%;
-}
+}*/
 /*--end of experience--*/
 
 /*--styling the social buttons--*/
-.socialButton, footer p {
+/*.socialButton, footer p {
   float: right;
 }
 
 .socialButton {
   width: 38px;
   margin: 0 5px;
-}
+}*/
 /*--end of social buttons--*/
 
 /*--styling the interests--*/
-#hobbies p {
+/*#hobbies p {
   text-indent: 5%;
   text-align: left;
   column-count: 3;
   padding-left: 2%;
-}
+}*/
 /*--end of interests--*/
 
 /*--contact me section--*/
-#contact {
+/*#contact {
   text-indent: 2%;
   line-height: 0;
-}
+}*/
 /*--and of contact section--*/
 
 /*--education section--*/
-#school {
+/*#school {
   text-indent: 2%;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -220,7 +220,7 @@ nav li:last-child a {
   width: 45%;
   height: 100%;
   margin: 0.5%;
-}
+}*/
 /*--end of education section--*/
 
 /*--media responsiveness for tablet---*/
