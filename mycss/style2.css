@@ -157,7 +157,7 @@ nav li a {
 
 /*--the greeting animation--*/
 
-/*typed-cursor{
+typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
@@ -177,7 +177,7 @@ nav li a {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
-}*/
+}
 
 /*--end of the greeting animation--*/
 
@@ -220,6 +220,12 @@ nav li a {
   margin: 0 5px;
 }
 /*--end of social buttons--*/
+
+/*--styling the buttons--*/
+a.btn {
+	
+}
+/*--end of the button--*/
 
 /*--media queries--*/
 /*--media queries for tablets--*/

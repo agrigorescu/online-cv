@@ -6,15 +6,18 @@
          <title> CV </title>
          <!--loading the icons-->
          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-         <!--link the Materialize framework-->
+         <!--link the Materialize framework--> <!--link the css file-->
          <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-         <link rel="stylesheet" type="text/css" href="style2.css">
+         <link rel="stylesheet" type="text/css" href="mycss/style2.css">
          <!--link the jQuery file-->
          <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
          <script src="materialize/js/materialize.js" type="text/javascript"></script>
          <script src="js/typed.js"></script>
          <script src="js/myjquery.js" type="text/javascript"></script>
-         <!--link the css file-->
+
+         <!-- modal-trigger -->
+         <script src="js/animatedModal.min.js"></script>
+
 
 
     </head>
@@ -100,7 +103,6 @@
         <!--work experience-->
         <section id="experience" role="contentinfo" class="card-panel">
         <h2>Experience</h2>
-
             <!--most recent job-->
             <div class="carousel carousel-slider" data-indicators="true">
                   <div class="carousel-item" href="#one!">
@@ -115,37 +117,10 @@
                           </div>
                           <!--end of description-->
 
-                          <p><em>Skills</em></p>
-                            <details>
-                                <div class="lists">
-                                    <ul>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>Java</li>
-                                        <li>C++</li>
-                                    </ul>
-                                </div>
-                            </details>
-
-                          <!--beginning of the projects-->
-                          <div id="projects">
-                              <h4>Projects</h4>
-                                <details>
-                                    <ul>
-                                        <li>Project 1</li>
-                                          <details>A few words on the project.</details>
-                                        <li>Project 2</li>
-                                          <details>A few words on the project.</details>
-                                        <li>Project 3</li>
-                                          <details>A few words on the project.</details>
-                                    </ul>
-                                </details>
-                          </div>
-                          <!--end of projects-->
+                          <!-- button for a new page that contains more details -->
+                          <a class="btn-floating btn-large waves-effect waves-light red" href="job1.html"><i class="medium material-icons">assignment</i></a>
 
                       </div>
-                      <!--end of most recent job-->
                   </div>
 
             <div class="carousel-item" href="#two!">
@@ -155,17 +130,10 @@
                     <h4><em>Team Leader</em></h4>
                     <p><em>February 2011 to October 2016</em></p>
                     <p>In my position as a Team Leader, I was responsible for driving results across all areas of the business. I was responsible for implementing new standards across the team and ensuring that they were maintained. Also, I was supervising, monitoring and issuing instruction to team members. I was in charge of all the cash handling procedures in the absence of the Manager. In addition, I was dealing with customer complaints in an effective and efficient manner.
-    </p>
-                    <p><em>Skills</em></p>
-                    <div class="lists">
-                        <ul>
-                            <li>leadership</li>
-                            <li>communication</li>
-                        </ul>
-                    </div>
+    </p><a class="btn-floating btn-large waves-effect waves-light red" href="job2.html"><i class="medium material-icons">assignment</i></a>
                 </div>
                 <!--end of other jobs-->
-              </div>
+            </div>
           </div>
 
         </section>
@@ -187,63 +155,21 @@
                               <h4><strong>IT Security and Law</strong></h4>
                               <p><em>September 2010 to June 2013</em></p>
                               <p>I have concentrated most of my studies on the Computer Science aspect of my degree, because it is an area I am passionate about. I have studied mostly Object Oriented Programming with an accent on Java. Also, I have taken a module about Operating Systems which I enjoyed immensely and it is something i will be interested in pursuing further in the future. I found the Law modules a bit tedious, as I lacked the passion to want to pursue it further in my career. However, I am glad I persevered in studying them as I now have a better understanding of certain issues, both political and technological.</p>
-                              <p><em>Modules</em></p>
-                              <div class="lists">
-                                  <ul>
-                                      <li>Operating systems</li>
-                                      <li>Java programming</li>
-                                  </ul>
-                              </div>
-                              <!--beginning of the projects-->
-                              <div class="projects">
-                                  <h4>Projects</h4>
-                                  <ul>
-                                      <li>Project 1 Android App</li>
-                                          <details>
-                                            <div class="lists">
-                                              <ul>
-                                                  <li>I chose to design an Android App that let you see what music other people were listening around you.</li>
-                                                  <li>It was aimed at all mobile phone users.</li>
-                                                  <li>The specifications of the app were: to be able to play music internally, to connect to social media, to have access to the geo-location services on the phone, to be able to share information via the internet and exchange private chat messages.</li>
-                                                  <li>I was alone in designing and managing my project, and had to check in with my tutor every few weeks.</li>
-                                                  <li>I have researched extensively the legal aspects of my app at the encouragement of my tutor.</li>
-                                                  <li>Due to time constraints, the amount of research and other coding issues, the app was never developed further than a rough version.</li>
-                                                  <li>I would like to develop it further in the future as a hobby project.</li>
-                                              </ul>
-                                            </div>
-                                          </details>
-                                  </ul>
-                              </div>
+                              <a class="btn-floating btn-large waves-effect waves-light red" href="school1.html"><i class="medium material-icons">assignment</i></a>
                        </div>
                   </div>
-                          <!--end of projects-->
+                          <!--more education-->
                   <div class="carousel-item" href="#two!">
                         <div class="school">
                             <h3>National College "Gh. M. Murgoci" Braila, Romania</h3>
                                 <h4><strong>Pathway: Mathematics - Computer Science Intensive</strong></h4>
                                 <p><em>September 206 to June 2010</em></p>
                                 <p>In college my studies were focued mostly on Science subjects, with an accent on Maths and Computer Science.</p>
-                                <p><em>Subjects</em></p>
-                                <div class="lists">
-                                    <ul>
-                                        <li>Mathematics</li>
-                                        <li>Compuet Science</li>
-                                        <li>Programming in C++</li>
-                                        <li>Physics</li>
-                                        <li>Chemistry</li>
-                                        <li>Biology</li>
-                                        <li>History</li>
-                                        <li>Geography</li>
-                                    </ul>
-                                </div>
-                                <!--beginning of the projects-->
-                                <div class="projects">
-                                    <h4>Projects</h4>
-                                    <p>As a final project in Computer Science, I had to present a working database using Oacle SQL and Microsift Access.</p>
-                                </div>
+                                <a class="btn-floating btn-large waves-effect waves-light red" href="school2.html"><i class="medium material-icons">assignment</i></a>
                         </div>
                     </div>
-                    <!--end of projects-->
+                    <!--end of more education-->
+          </div>
         </section>
         <!--end of education-->
 
@@ -308,8 +234,5 @@
             </ul>
             <p>Designed by Andreea Grigorescu</p>
         </footer>
-      </div>
-
-
     </body>
 </html>
