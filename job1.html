@@ -11,6 +11,7 @@
          <!--link the Materialize framework--> <!--link the css file-->
          <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
          <link rel="stylesheet" type="text/css" href="mycss/style2.css">
+         <link rel="stylesheet" type="text/css" href="experience1.css">
          <!--link the jQuery file-->
          <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
          <script src="materialize/js/materialize.js" type="text/javascript"></script>
@@ -30,6 +31,7 @@
       <nav>
         <div >
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <a href="cv2.html" class="brand-logo center">Andreea Grigorescu</a>
             <ul class="right hide-on-med-and-down">
               <li><a href="cv2.html">Back</a></li>
             </ul>
@@ -47,29 +49,35 @@
         <!--end of parallax effect-->
         <section id="experience" role="contentinfo" class="card-panel">
           <div class="job">
-              <h3 class="center-align"><strong>Sparta Global</strong></h3>
-              <h4><em>Web Developer</em></h4>
-              <p><em>November 2016 to Present</em></p>
+              <div class="center-align" ><img class="logo" src="images/sparta-global.gif" /></div>
+              <!-- <h3 class="center-align"><strong>Sparta Global</strong></h3> -->
+              <h4 class="center-align"><em><code>:{Web Developer};</code></em></h4>
+              <div>
+                <h6 class="center-align"><em>November 2016 to Present</em></h6>
+              </div>
 
               <!--job description-->
-              <div id="description">
+              <div id="description" class="card-panel">
+
                   <p>During my time at the Academy, I have enjoyed studying about the various technologies used today in the Web Development world. Have been involved in a few AGILE sprints for various projects, which proved to be quite challenging and rewarding.</p>
               </div>
               <!--end of description-->
-              <p><em>Skills</em></p>
-                    <div class="lists">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Java</li>
-                            <li>C++</li>
-                        </ul>
-                    </div>
+              <div id="skills" class="card-panel">
+                  <p><em>Skills</em></p>
+                        <div class="lists">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Java</li>
+                                <li>C++</li>
+                            </ul>
+                        </div>
+              </div>
 
               <!--beginning of the projects-->
-              <div id="projects">
-                  <h4>Projects</h4>
+              <div id="projects" class="card-panel">
+                  <h4 class="center-align">Projects</h4>
                         <ul>
                             <li>Project 1</li>
                               <details>A few words on the project.</details>

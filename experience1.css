@@ -1,0 +1,22 @@
+/*--styling the job1 page--*/
+#experience {
+	background-color: #DCDEDC;
+}
+.logo {
+	width: 50vw;
+	height: 30vh;
+}
+
+h4 {
+	font-size: 3vw;
+}
+
+h6 {
+	font-size: 1.5vw;
+}
+
+.card-panel {
+	background-color: #DCDEDC;
+}
+
+/*--end of styling of extra pages--*/
