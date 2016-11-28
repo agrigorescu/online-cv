@@ -33,9 +33,7 @@ $(function(){
         startDelay: 5000
       });
 
-      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-      // $('.modal').modal();
-      $("#demo01").animatedModal();
+    
 
 
 });

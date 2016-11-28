@@ -7363,9 +7363,10 @@ Picker.extend( 'pickadate', DatePicker )
           options.dist = 0;
           var firstImage = view.find('.carousel-item img').first();
           if (firstImage.length) {
-            imageHeight = firstImage.on('load', function(){
-              view.css('height', $(this).height());
-            });
+            // imageHeight = firstImage.on('load', function(){
+            //   view.css('height', $(this).height());
+            // });
+            view.css('height', 400);
           } else {
             imageHeight = view.find('.carousel-item').first().height();
             view.css('height', imageHeight);
