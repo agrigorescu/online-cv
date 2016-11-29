@@ -29,11 +29,9 @@ $(function(){
       //using typed.js - typing the word hello in the about section
       $(".element").typed({
         strings: ["Hello!"],
-        typeSpeed: 50,
-        startDelay: 5000
+        typeSpeed: 50
+        // startDelay:
+
       });
-
-    
-
 
 });
