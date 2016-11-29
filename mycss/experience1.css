@@ -1,6 +1,6 @@
 /*--styling the job1 page--*/
-#experience {
-	background-color: #DCDEDC;
+body {
+	background-color: white;
 }
 .logo {
 	width: 50vw;
@@ -15,12 +15,19 @@ h6 {
 	font-size: 1.5vw;
 }
 
-.card-panel {
-	background-color: #DCDEDC;
-}
-
 #parallax1.parallax-container {
 	height: 20vh;
 }
 
+.center-align, .description, .skills, .skills>p, .projects {
+	padding: 1vw;
+}
+
+li.projects, .skills>p {
+	font-size: 1.5vw;
+}
+
+#wrapper{
+	background-image: url("~/images/desktop-office.jpg");
+}
 /*--end of styling of extra pages--*/

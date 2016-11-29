@@ -1,9 +1,8 @@
 /*--styling the job2 page--*/
 
-#experience {
-	background-color: #FDFDFD;
+body {
+	background-color: white;
 }
-
 .logo {
 	width: 20vw;
 }
@@ -18,4 +17,17 @@ h6 {
 
 #parallax1.parallax-container {
 	height: 20vh;
+}
+
+.center-align, .description, .skills, .projects {
+	padding: 1vw;
+}
+
+.skills {
+	text-indent: 1vw;
+}
+
+.skills>p {
+	font-size: 1.5vw;
+	padding: 1vw;
 }
