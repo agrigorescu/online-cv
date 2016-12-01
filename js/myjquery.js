@@ -23,15 +23,32 @@ $(function(){
           }
         });
 
-      //initializing carousel
-      $('.carousel.carousel-slider').carousel({full_width: true});
+        //checking to see if the animation is in the window
+        // var element = $(".element").offset().top;
+        // $(window).scroll(function(){
+        //   var y = $(window).scrollTop();
+        //     if (y >= element){
+        //       // Do stuff, like append a class to an element
+        //
+        //     }
+        // });
 
       //using typed.js - typing the word hello in the about section
-      $(".element").typed({
-        strings: ["Hello!"],
-        typeSpeed: 50
-        // startDelay:
+      for(let i=0; i<100; i++){
+        $(".element").typed({
+          strings: ["Hello!"],
+          typeSpeed: 50
+          // startDelay:
+        });
+      }
 
-      });
+      //initializing the carousel
+      $('.carousel').carousel();
+      // $('.carousel.carousel-slider').carousel({full_width: true});
+
+      //trigetting the modal
+      // $('.modal').modal();
+
+
 
 });

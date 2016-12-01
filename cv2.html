@@ -7,12 +7,12 @@
          <!--loading the icons-->
          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
          <!--link the Materialize framework--> <!--link the css file-->
-         <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+         <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/> <!--Materialize style-->
        	 <link rel="stylesheet" href="mycss/style.css"> <!-- Resource style -->
          <link rel="stylesheet" type="text/css" href="mycss/cv2.css">
          <!--link the jQuery file-->
          <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
-         <script src="materialize/js/materialize.js" type="text/javascript"></script>
+         <script src="materialize/js/materialize.js" type="text/javascript"></script> <!--Materialize.js-->
          <script src="js/typed.js"></script> <!-- Typed.js -->
          <script src="js/modernizr.js"></script> <!-- Modernizr -->
          <script src="js/myjquery.js" type="text/javascript"></script>
@@ -34,14 +34,14 @@
               <li><a href="#about">About</a></li>
               <li><a href="#experience">Experience</a></li>
               <li><a href="#school">Education</a></li>
-              <li><a href="#hobbies">Interests</a></li>
+              <li><a href="#projects">Projects</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
               <li><a href="#about" onclick="$('.button-collapse').sideNav('hide');">About</a></li>
               <li><a href="#experience" onclick="$('.button-collapse').sideNav('hide');">Experience</a></li>
               <li><a href="#school" onclick="$('.button-collapse').sideNav('hide');">Education</a></li>
-              <li><a href="#hobbies" onclick="$('.button-collapse').sideNav('hide');">Interests</a></li>
+              <li><a href="#projects" onclick="$('.button-collapse').sideNav('hide');">Projects</a></li>
               <li><a href="#contact" onclick="$('.button-collapse').sideNav('hide');">Contact</a></li>
             </ul>
           </div>
@@ -78,12 +78,12 @@
             <section id="about" class="card-panel">
                 <div role="introduction">
                     <h2>About</h2>
-                    <div id="greeting" class="element">Hello!</div>
+                    <div id="greeting" class="element center-align">Hello!</div>
                     <div class="summary">
                         <p><em>I am part of the up and coming wave of Web Devs from Sparta Global.</em></p>
-                        <p><em>I consider myself an ambitious individual and who will not back down from a challenge.</em></p>
-                        <p><em>I am a techie at heart and have lived most of my life surrounded by gadgets.</em></p>
-                        <p><em>When I am not coding, I enjoy seeing the world through the lenses of my camera.</em></p>
+                        <p><em>My coleagues think I am a reliable, hardworking, and dedicated team player who works well under pressure and with minimum supervision. I have a passion for all things tech, especially Object Oriented Programming languages such as JavaScript and C++.</em></p>
+                        <p><em>I take pride in completing various assignments and projects, particularly projects focused on back-end development. Throughout my educational years, I have dedicated my time to learning about different  technologies and various legal aspects involved in the world of tech, mostly focusing on Intellectual Property Rights. I hope my technical skill set and my creativity will be a wonderful addition to any company. I consider myself an ambitious individual and who will not back down from a challenge.</em></p>
+                        <p><em>When I am not coding, I enjoy seeing the world through the lenses of my camera, having participated in a few photography competitions.</em></p>
                     </div>
                 </div>
             </section>
@@ -97,7 +97,7 @@
       			</div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content experience" id="experience">
-              <div class="carouselImage"><img src="images/sparta-global-roundel.png" /></div>
+              <div class="timelineImage"><img src="images/sparta-global-roundel.png" /></div>
               <div class="center-align">
                 <h5><strong>Sparta Global</strong></h5>
                 <p><em>Web Developer</em></p>
@@ -113,7 +113,7 @@
       			</div> <!-- cd-timeline-img -->
 
       			<div class="cd-timeline-content experience">
-              <div class="carouselImage"><img src="images/pret.jpg" /></div>
+              <div class="timelineImage"><img src="images/pret.jpg" /></div>
               <div class="center-align">
                 <h6><strong>Pret</strong></h5>
                 <p><em>Team Leader</em></p>
@@ -129,7 +129,7 @@
       			</div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content school" id="school">
-              <div class="carouselImage"><img src="images/london-met-small-logo.png" /></div>
+              <div class="timelineImage"><img src="images/london-met-small-logo.png" /></div>
               <div class="center-align">
                 <h5>London Metropoltan</h5>
                 <p><strong>IT Security and Law</strong></p>
@@ -156,11 +156,52 @@
         </section> <!-- cd-timeline -->
 
         <!--hobbies-->
-        <section id="hobbies" class="card-panel">
-            <h2>Interests</h2>
-            <p>I love to see the world through the lense of my camera. I am fascinated by the miracles of mother nature and the man built architecture that surrounds us.</p>
-            <p>I recently participated in the Buddhits centers Lantern Festival  photography competition, where my photo won second place.</p>
-            <p>I am also a keen badminton player and can be found most Summers on the court, knocking out a match with my friends.</p>
+        <section id="projects" class="card-panel">
+            <h2>Projects</h2>
+            <div class="carousel">
+              <div class="carousel-item projects" href="#project1">
+                <div class="center-align">
+                  <img src="images/sparta-global-roundel.png" />
+                  <a class="btn-floating btn-large waves-effect waves-light red center-align" href="school2.html"><i class="medium material-icons">description</i></a>
+                </div>
+              </div>
+              <div class="carousel-item projects" href="#project2">
+                <div class="center-align">
+                  <img src="logo.png" />
+                  <a class="btn-floating btn-large waves-effect waves-light red center-align" href="school1.html"><i class="medium material-icons">description</i></a>
+                </div>
+              </div>
+              <div class="carousel-item projects" href="#project3">
+                <div class="center-align">
+                  <img src="logo.png" />
+                  <a class="btn-floating btn-large waves-effect waves-light red center-align" href="school1.html"><i class="medium material-icons">description</i></a>
+                </div>
+              </div>
+              <div class="carousel-item projects" href="#project4">
+                <div class="center-align">
+                  <img src="logo.png" />
+                  <a class="btn-floating btn-large waves-effect waves-light red center-align" href="school1.html"><i class="medium material-icons">description</i></a>
+                </div>
+              </div>
+              <!-- <a class="carousel-item projects" href="#project2"><img src="logo.png"></a>
+              <a class="carousel-item projects" href="#project3"><img src="logo.png"></a>
+              <a class="carousel-item projects" href="#project4"><img src="logo.png"></a>
+              <a class="carousel-item projects" href="#project5"><img src="logo.png"></a> -->
+            </div>
+            <!-- <div id="project1" class="modal">
+              <div class="modal-content">
+                <h4>Personal Website</h4>
+                <p>A bunch of text</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#projects" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+              </div>
+            </div> -->
+
+
+
+
+
         </section>
         <!--end of hobbies-->
 
@@ -204,7 +245,7 @@
 
         <!--signature footer-->
         <footer class="card-panel">
-            <ul class="coontainer">
+            <ul>
                 <a class="socialButton" href="https://medium.com/@deea26"><img src="images/medium.png" /></a>
                 <a class="socialButton" href="https://www.linkedin.com/in/andreea-grigorescu-71a8b0114"><img src="images/linkedin.png" /></a>
                 <a class="socialButton" href="https://github.com/agrigorescu"><img src="images/github.png" /></a>

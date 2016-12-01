@@ -44,7 +44,7 @@ footer {
     color: black;
 }
 
-#about, #hobbies, #homepage, #contact, .experience, .school {
+#about, #projects, #homepage, #contact, .experience, .school {
 	background-color: #FFFFED; /*#FCCA80;*/
 }
 /*--end of standard styling--*/
@@ -128,10 +128,6 @@ nav li a {
 /*--end of homepage styling--*/
 
 /*--about section - styling the greeting--*/
- #greeting, .summary {
-  display: inline-block;;
-}
-
 #greeting {
   font-family: 'Indie Flower', serif;
   font-size: 15vw;
@@ -139,55 +135,26 @@ nav li a {
 }
 
 .summary {
-  margin: 2%;
   text-align: left;
   padding-left: 2%;
   padding-bottom: 5%;
 }
 /*--end of styling the greeting--*/
 
-/*--the greeting animation--*/
-
-typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
-/*--end of the greeting animation--*/
 
 /*--experience section styling--*/
-.carouselImage {
+.timelineImage {
 	display: block;
   margin: auto;
 	width: 6.7vw;
 }
 /*--end of experience--*/
 
-/*--styling the interests--*/
-#hobbies p {
-  text-indent: 5%;
-  text-align: left;
-  column-count: 3;
-  padding-left: 2%;
-}
-/*--end of interests--*/
+/*--styling the projects--*/
+
+
+
+/*--end of projects--*/
 
 /*--contact me section--*/
 #contact {
@@ -223,7 +190,7 @@ typed-cursor{
 			margin: 0 33%;
 	}
 
-	#hobbies p {
+	#projects p {
 		column-count: 1;
 	}
 
