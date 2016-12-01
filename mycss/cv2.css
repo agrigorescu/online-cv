@@ -119,11 +119,11 @@ nav li a {
 #profilePicture {
   width: 30%;
   padding: 2%;
-  margin-top: 7%;
+  margin-top: 0.5vw;
 }
 
 #homepage {
-  padding: 10%;
+  padding: 1.5vw;
 }
 /*--end of homepage styling--*/
 
@@ -150,18 +150,13 @@ nav li a {
 }
 /*--end of experience--*/
 
-/*--styling the projects--*/
-
-/*--styling the modals--*/
+/*--styling the projects--*/ /*--styling the modals--*/
 
 	.modal-content p {
-		font-size: 1vw;
+		font-size: 2vh;
 	}
 
-/*--end of styling of the modals--*/
-
-
-/*--end of projects--*/
+/*--end of projects--*/ /*--end of styling of the modals--*/
 
 /*--contact me section--*/
 #contact {
