@@ -152,6 +152,13 @@ nav li a {
 
 /*--styling the projects--*/
 
+/*--styling the modals--*/
+
+	.modal-content p {
+		font-size: 1vw;
+	}
+
+/*--end of styling of the modals--*/
 
 
 /*--end of projects--*/
