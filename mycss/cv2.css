@@ -44,7 +44,8 @@ footer {
     color: black;
 }
 
-#about, #projects, #homepage, #contact, .experience, .school {
+#about, #homepage, #projects, #contact, .experience, .school {
+	background-image: url("../images/background-paralax.jpg");
 	background-color: #FFFFED; /*#FCCA80;*/
 }
 /*--end of standard styling--*/
@@ -103,7 +104,7 @@ nav li a {
 
 /*--editing the parallax effect--*/
 	#parallax1.parallax-container {
-		height: 30vh;
+		height: 27vh;
 	}
 
 	.parallax-container {
@@ -122,7 +123,7 @@ nav li a {
   margin-top: 0.5vw;
 }
 
-#homepage {
+ #homepage {
   padding: 1.5vw;
 }
 /*--end of homepage styling--*/
