@@ -204,21 +204,29 @@ nav li a {
 	}
 
 	#parallax1.parallax-container {
-		height: 10vh;
+		height: 10vw;
 	}
 
 	.parallax-container {
 		height: 20vh;
+	}
+
+	.container {
+		margin: 0vw;
 	}
 }
 
 /*--media querys for mobile phones--*/
 @media only screen and (max-width: 780px) {
 	#parallax1.parallax-container {
-		height: 2vh;
+		height: 25vh;
 	}
 
 	.parallax-container {
 		height: 5vh;
+	}
+
+	.container {
+		margin-bottom: 5vw;
 	}
 }
