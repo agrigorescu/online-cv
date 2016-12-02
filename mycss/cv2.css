@@ -1,7 +1,7 @@
 /*--begining of the css--*/
 
 /*--importing font--*/
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito|Raleway');
 
 * {
 	padding: 0;
@@ -178,6 +178,13 @@ nav li a {
 }
 /*--end of social buttons--*/
 
+/*--styling the modal--*/
+#modalBody, #modalHeader {
+	font-family: 'Raleway';
+}
+
+
+/*--end of modal styling--*/
 
 
 /*--media queries--*/
