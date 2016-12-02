@@ -44,7 +44,7 @@ footer {
     color: black;
 }
 
-#about, #homepage, #projects, #contact, .experience, .school {
+#about, #projects, #contact, .experience, .school {
 	background-image: url("../images/background-paralax.jpg");
 	background-color: #FFFFED; /*#FCCA80;*/
 }
@@ -125,6 +125,7 @@ nav li a {
 
  #homepage {
   padding: 1.5vw;
+	background-image: url("../images/background-paralax.jpg");
 }
 /*--end of homepage styling--*/
 
