@@ -1,7 +1,7 @@
 /*--begining of the css--*/
 
 /*--importing font--*/
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito|Raleway');
 
 * {
 	padding: 0;
@@ -46,7 +46,7 @@ footer {
 
 #about, #projects, #contact, .experience, .school {
 	background-image: url("../images/background-paralax.jpg");
-	background-color: #FFFFED; /*#FCCA80;*/
+	/*background-color: #FFFFED; /*#FCCA80;*/
 }
 /*--end of standard styling--*/
 
@@ -104,7 +104,7 @@ nav li a {
 
 /*--editing the parallax effect--*/
 	#parallax1.parallax-container {
-		height: 27vh;
+		height: 90vh;
 	}
 
 	.parallax-container {
@@ -123,13 +123,18 @@ nav li a {
   margin-top: 0.5vw;
 }
 
- #homepage {
-  padding: 1.5vw;
-	background-image: url("../images/background-paralax.jpg");
-}
+ .container {
+	 background: rgba(255, 255, 255, 0.1);
+	 position: absolute;
+	 box-sizing: padding-box;
+	 margin: 15vw;
+ }
 /*--end of homepage styling--*/
 
 /*--about section - styling the greeting--*/
+/*#about{
+	padding-top: 21vw;
+}*/
 #greeting {
   font-family: 'Indie Flower', serif;
   font-size: 15vw;
@@ -173,6 +178,13 @@ nav li a {
 }
 /*--end of social buttons--*/
 
+/*--styling the modal--*/
+#modalBody, #modalHeader {
+	font-family: 'Raleway';
+}
+
+
+/*--end of modal styling--*/
 
 
 /*--media queries--*/
@@ -199,21 +211,29 @@ nav li a {
 	}
 
 	#parallax1.parallax-container {
-		height: 10vh;
+		height: 10vw;
 	}
 
 	.parallax-container {
 		height: 20vh;
+	}
+
+	.container {
+		margin: 0vw;
 	}
 }
 
 /*--media querys for mobile phones--*/
 @media only screen and (max-width: 780px) {
 	#parallax1.parallax-container {
-		height: 2vh;
+		height: 25vh;
 	}
 
 	.parallax-container {
 		height: 5vh;
+	}
+
+	.container {
+		margin-bottom: 5vw;
 	}
 }
